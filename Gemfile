@@ -9,7 +9,7 @@ gem 'rolify'
 gem 'authority'
 gem 'simple_form'
 gem 'jquery-rails'
-
+gem 'chart-js-rails'
 # bootstrap-sass -> no error of File to import not found or unreadable: bootstrap.
 gem 'bootstrap-sass', '~> 3.3.7'
 

@@ -5,6 +5,8 @@
     <%= image_tag "welcome.jpg", size: "200", style: "margin:2em 0"%>
 </div>
 
+<canvas id="myChart" width="400" height="400"></canvas>
+
 <% if user_signed_in? %>
   <p><%= link_to "로그아웃", destroy_user_session_path, method: :delete, data: {confirm: "Are you sure?" }, class: 'btn btn-default'%></p>
 <% else %>
